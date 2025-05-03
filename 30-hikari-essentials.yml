@@ -1,0 +1,7 @@
+# Hikari Essentials Module: theming, usability and utility tools
+name: hikari-essentials
+type: shell
+commands:
+  - apt install -y kitty foot tofi waybar wofi rofi lxappearance arc-theme papirus-icon-theme
+  - mkdir -p /etc/skel/.config/hikari
+  - echo '# Sample hikari config' > /etc/skel/.config/hikari/config

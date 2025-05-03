@@ -1,0 +1,6 @@
+# Hikari Core Module: Custom Wayland window manager combining Hyprland's beauty and Sway's minimalism
+name: hikari-core
+type: shell
+commands:
+  - apt update
+  - apt install -y --no-install-recommends hikari wlroots xwayland wayland-protocols lightdm
